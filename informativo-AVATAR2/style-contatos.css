@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Merienda&family=Oswald:wght@300;400&family=Roboto:wght@300;500&family=Yeon+Sung&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo-total {
+    width: 70%;
+    height: 80%;
+    margin: 80px 0 0 240px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #3CA6A6;
+    background-image: url(http://s2.glbimg.com/Fo7ikpKGO9iiVqfXv48248WHZVI=/e.glbimg.com/og/ed/f/original/2017/02/08/avatar1.jpg);
+}
+
+/* LADO ESQUERDO - MENSAGEM */
+.lado-mensagem {
+    width: 100%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+
+#titulo {
+    width: 300px;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.conteudo-mensagem {
+    width: 70%;
+    margin: 30px 5px 0 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+
+#name {
+    width: 139%;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 139%;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#text {
+    width: 139%;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#mensagem {
+    width: 139%;
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    border-radius: 5px;
+}
+
+#button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-bottom: 25px;
+}
+
+/* LADO DIREITO - CONTATO */
+.lado-contato {
+    width: 100%;
+    height: 100%;
+    margin:33px 0 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-contato {
+    margin: 0 5px 0 10px;
+    color: #fff;
+}
+
+.contato {
+    margin-bottom: 0;
+}
+
+.dados-contato{
+    height: 491px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#endereco {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#endereco-icon {
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+}
+
+#telefone {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#telefone-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 0 10px 0;
+    justify-content: center;
+}
+
+
+#email {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: 10px;
+    color: #fff;
+}
+
+#email-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 10px 0;
+    justify-content: center;
+}
+
+
+#site {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+#site-icon {
+    width: 56px;
+    height: 56px;
+    margin: 14px 10px 10px 0;
+    justify-content: center;
+}

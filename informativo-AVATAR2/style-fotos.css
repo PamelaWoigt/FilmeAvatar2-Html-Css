@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Merienda&family=Oswald:wght@300;400&family=Roboto:wght@300;500&family=Yeon+Sung&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #002333;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho-album {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    color: #DEEFE7;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-pagina {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    margin-top: 23px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;    
+}
+
+.album-conteudo {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.imagens {
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 900pxs;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+
+#imagem-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-2{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#imagem-3{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#imagem-4{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-5{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-6{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-7{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-8{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-9{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-10{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-11{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#imagem-12{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 0;
+}
+
+.card:hover {
+    transform: scale(1.7);
+}
+
+.poster-galeria1 {
+    background-image: url(https://leclaireur.fnac.com/wp-content/uploads/2022/12/0853425-jpg-r-1920-1080-f-jpg-q-x-xxyxx-1256x826.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 150%;
+    height: 400px;
+}
+
+.poster-galeria2 {
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/Y5R6LV2WLFDLFO3N2OH6EOOFTE.jpg);
+    background-size: cover;
+    margin-left: 50%;
+    width: 157%;
+    height: 400px;
+}
